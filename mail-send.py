@@ -1,3 +1,5 @@
+#This project automates email sending by reading recipient details from a CSV file and sending emails with attachments using SMTP, 
+#while adding time delays between emails to avoid spam blocking.
 import csv
 import smtplib
 import time
@@ -88,7 +90,7 @@ rahul.verma.demo@outlook.com
             print(f"  Sent {email_count} emails. Pausing for 30 minutes...")
             time.sleep(30 * 60)  # 30 minutes = 1800 seconds
 
-    print("🎉 All emails sent successfully!")
+    print(" All emails sent successfully!")
 
 if __name__ == "__main__":
     print("----- AUTOMATION SCRIPT FOR MAIL SENDER -----")
