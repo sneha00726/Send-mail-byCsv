@@ -13,7 +13,7 @@ def read_csv(file_path):
 
 # Function to send emails with attachments
 def send_email(to_email, subject, body, attachment_path):
-    from_email = 'mhasalkarsneha@gmail.com'  # Replace with your email
+    from_email = 'com@gmail.com'  # Replace with your email
     password = 'qqhy ujhj xcmj jitc'     # Replace with your email password
     smtp_server = 'smtp.gmail.com'        # Replace with your SMTP server
 
@@ -40,7 +40,7 @@ def send_email(to_email, subject, body, attachment_path):
 
 # Main script
 csv_file_path = 'HRmail.csv'  # Replace with your CSV file path
-resume_path = 'mhasalkarsnehaResume.pdf'  # Replace with your resume file path
+resume_path = 'Resume.pdf'  # Replace with your resume file path
 
 # Read data from the CSV file
 contacts = read_csv(csv_file_path)
@@ -66,7 +66,6 @@ Thank you for your time and consideration.
 Warm regards,
 Rahul Verma
 9876543210
-rahul.verma.demo@outlook.com
 rahul.verma.demo@outlook.com
 
 
