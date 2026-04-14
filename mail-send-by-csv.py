@@ -1,4 +1,5 @@
-import csv
+# This program automates email sending by reading recipient details from a CSV file
+# and sending emails with attachments to each contactimport csv
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
